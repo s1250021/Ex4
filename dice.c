@@ -15,5 +15,8 @@ int main(){
 
   printf("Total value: %d\n", dice1 + dice2);
 
+  if(dice1 + dice2 > 7) printf("You won\n");
+  else printf("You lost\n");
+
   return 0;
 }
