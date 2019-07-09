@@ -20,8 +20,8 @@ int main(){
 
   printf("Total value: %d\n", dice1 + dice2);
 
-  if(dice1 + dice2 > 7) printf("You won\n");
-  else printf("You lost\n");
+  if(dice1 + dice2 > 7) printf("%s won!\n",name);
+  else printf("%s lost\n",name);
 
   return 0;
 }
